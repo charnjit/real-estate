@@ -1,1 +1,639 @@
 
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Landing Page 4</title>
+<!--Bootstrap-CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!--End-CSS -->
+<!--Google-fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<!--Google-fonts -->
+
+<!-- fonts awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="css/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<!--Custom-css-->
+<style>
+html,
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;    
+}
+
+body{
+    font-family:font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color:#393939;    
+}
+
+img {
+	max-width:100%;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#ffffff;    
+} 
+
+h1{
+    font-size:50px;    
+}
+
+h2{
+    font-size:28px; 
+	color: #7ec03d;
+	font-weight: 700;   
+}
+
+h3{
+    font-size:22px;
+}
+
+
+/*p{
+    color:#fff;
+    line-height:26px;
+    font-weight:400;        
+}*/
+
+.slide-banner {
+	background: url(images/banner-4.jpg) no-repeat 0 0 ;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	border-bottom: 3px solid #7ec03d;
+}
+/*.inner-banner:before {
+	background:rgba(0, 0, 0, 0.4);
+	content:".";
+	display:block;
+	height:100%;
+	width:100%;
+	position:absolute;
+	
+}*/
+.slide-banner .logo {
+	margin: 10px auto;
+	padding: 20px;
+}
+.slide-banner .logo img {
+	width: auto;
+}
+.slide-banner p {
+	text-align: center;
+	/* color: #000; */
+	font-style: italic;
+	margin: 0 auto;
+}
+.slide-banner .slide-caption {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.slide-banner .slide-caption p {
+	color: #fff;
+	font-size: 16px;
+	font-style: initial;
+}
+.custom-form input[type="text"],
+.form-text-area input[type="text"] {
+	font-size: 14px;
+	height: 48px;
+	padding: 10px 15px;
+	outline: none;
+	margin: 6px 5px;
+	width:30%;
+}
+.custom-form .comman-textarea {
+	width:16% !important;
+}
+.form-layout {
+	margin: 25px 117px 2px;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	padding: 15px;
+}
+.form-text-area .btn-success.custom-btn {
+	width: 33.7%;
+	margin: 0 0 0 5px;
+	padding: 13px 3px 12px 3px !important;
+	background: #79d91a;
+	border-radius: 0px;
+}
+.slide-banner .text-line-bx {
+	padding: 19px 2px 70px 0px;
+}
+.slide-banner .text-line-bx p{
+	color:#fff;
+	text-align:center;
+	padding: 0px 0px 0px 225px;
+}
+/*************/
+.about-section-bx {
+	padding-top: 60px;
+	padding-bottom:60px;
+	background:url(images/about-bg.jpg);
+	background-size: cover;
+}
+.about-intro-bx p {
+	color: #5F5C5C;
+}
+.about-intro-bx ul {
+	margin:0;
+	padding:0;
+}
+.about-intro-bx ul li {
+	padding: 14px 4px 0px 0px;
+	list-style: none !important;
+}
+.about-intro-bx ul li a {
+	list-style: none !important;
+	text-decoration: none;
+	color: #5F5C5C;
+}
+.about-intro-bx .fa {
+	color:#7ec03d;
+}
+.about-section-bx .photo-gallery .img-box {
+	margin-bottom: 18px;
+	padding: 7px;
+}
+
+
+/*************/
+.icon-box {
+  background: #7ec03d none repeat scroll 0 0;
+  border-radius: 50%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  width: 70px;
+  float:left;
+}
+
+.icon-box i {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 32px;
+  margin-top: 18px;
+}
+
+.icon-text {
+	float: left;
+	margin: 0 0 0 13px;
+	width: 68%;
+}
+
+.icon-text h3 {
+  margin: 0 0 4px;
+  color:#7ec03d;
+}
+
+.center-top-right .row {
+  
+}
+
+.center-top{
+    padding:60px 0;    
+}
+/*************/
+.tesimonials{
+    background:#7ec03d;
+    padding:20px 0;    
+}
+
+.tesimonials .tesimonials-inner {
+  float: none;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+.author > img {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.author {
+  float: left;
+}
+
+.author-text {
+  float: left;
+  margin: 15px 0 0 25px;
+  width: 80%;
+}
+
+.author-text > span {
+  color: #ffffff;
+  font-style: italic;
+}
+
+.author-text > p {
+  color: #ffffff;
+  font-size: 19px;
+  font-style: italic;
+  line-height: 25px;
+}
+/******************/
+.footer {
+	background: url(images/footer.png) no-repeat 0 0;
+	background-size: cover;
+	padding: 15px;
+}
+.footer .copy-right-bx p {
+	color: #fff;
+	font-size: 13px;
+}
+.footer .copy-right-bx {
+	float: left;
+}
+.footer .useful-links {
+	float:right;
+}
+.footer .useful-links ul li {
+	display: inline-block;
+}
+.footer .useful-links ul li a {
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+}
+/********Media-Queries**************/
+/* Large desktops and laptops */
+@media (max-width: 1400px) {
+	.slide-banner {
+		height: auto;
+	}
+	
+
+}
+@media (max-width: 1200px) {
+	.slide-banner {
+		height: auto;
+	}
+	
+
+}
+@media (max-width: 1199px) {
+	.form-layout {
+		margin: 25px 0px 2px;
+	}
+	.slide-banner .text-line-bx p {
+		padding:0;
+	}
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 992px) {
+	.custom-form input[type="text"], .form-text-area input[type="text"] {
+		width: auto;
+	}
+	.slide-banner {
+		height: auto;
+	}
+	.tesimonials .tesimonials-inner {
+		width: 100%;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 768px) {
+	.form-layout {
+		margin: 25px 0px 2px;
+	}
+	.custom-form input[type="text"], .form-text-area input[type="text"] {
+		width: auto;
+	}
+	.slide-banner .text-line-bx p {
+		padding:0;
+	}
+	.custom-form .comman-textarea {
+		width: auto;
+	}
+		.slide-banner {
+		height: auto;
+	}
+	.inner-banner::before {
+		display: none;
+	}
+	
+	
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.custom-form input[type="text"], .form-text-area input[type="text"] {
+		width: auto;
+	}
+	.slide-banner .text-line-bx p {
+		padding:0;
+	}
+	.form-layout {
+		margin: 25px 0px 2px;
+	}
+	.slide-banner {
+		height: auto;
+	}
+	.inner-banner:before {
+		display:none;
+	}
+	.row-hide-bx {
+		display:none;
+	}
+	
+
+}
+@media (max-width: 700px) {
+	.custom-form input[type="text"], .form-text-area input[type="text"] {
+		width: 100%;
+	}
+	.slide-banner .text-line-bx p {
+		padding:0;
+	}
+	.form-layout {
+		margin: 25px 0px 2px;
+		padding: 44px;
+	}
+	.custom-form .comman-textarea {
+		width: 100% !important;
+	}
+	.form-text-area .btn-success.custom-btn {
+		width: 100%;
+		margin: 11px 0 0 5px
+	}
+	.slide-banner {
+		height: auto;
+	}
+	.img-box img {
+		margin-bottom: 14px;
+	}
+	.row.photo-gallery.gallery-left {
+		float: left;
+	}
+	.row.photo-gallery.gallery-right {
+		float: right;
+	}
+	
+
+}
+@media screen and (max-width: 660px) {
+
+.author {
+  float: none;
+}
+
+.author-text {
+  float: none;
+  margin: 10px 0 0 0;
+  width: 100%;
+}
+
+}
+@media (max-width: 640px) {
+	h1 {
+		font-size:37px;
+		}
+		.slide-banner {
+		height: auto;
+		}
+		.row.photo-gallery.gallery-right {
+			float: none;
+		}
+		.row.photo-gallery.gallery-left {
+			float: none;
+		}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+		h1 {
+		font-size:28px;
+		}
+		.slide-banner {
+		height: auto;
+		}
+		.custom-form input[type="text"], .form-text-area input[type="text"] {
+			width: 100%;
+		}
+		.form-layout {
+			margin: 25px 0px 2px;
+			padding: 14px;
+		}
+		.slide-banner .logo img {
+			width: 100%;
+		}
+		.img-box img {
+			margin-bottom: 14px;
+		}
+		.footer .useful-links {
+			width: 100%;
+		}
+		.row.photo-gallery.gallery-right {
+			float: none;
+		}
+		.row.photo-gallery.gallery-left {
+			float: none;
+		}
+
+}
+@media (max-width: 320px) {
+	h1 {
+		font-size:28px;
+		}
+		.slide-banner {
+		height: auto;
+		}
+
+}
+
+</style>
+</head>
+<body>
+<!--Header-->
+<div class="slide-banner">
+	<div class="inner-banner">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+                        <img src="images/logo.jpg" alt="logo" title="logo">
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="slide-caption wow fadeInLeft" data-wow-delay="0.7s">
+                            <h1>What's Your Home <br />Really Worth in 2016?</h1>
+                            <p>The market has shifted. Find your home’s current value here, for Free</p>
+                        </div>
+                       <div class="form form-layout wow fadeInUp" data-wow-delay="0.5s">
+                             <div class="custom-form">
+                            <input type="text" name="full-name" class="full-name" placeholder="Full Name">
+                            <input type="text" name="Phone-number" class="Phone-number" placeholder="Phone Number">
+                            <input type="text" name="city" class="city comman-textarea" placeholder="City">
+                            <input type="text" name="postal-code" class="postal-code comman-textarea" placeholder="Postal Code">
+                            </div>
+                            <div class="form-text-area">
+                                <input type="text" name="email" class="email-address" placeholder="Your-Email Address">
+                                <input type="text" name="street-address" class="street-address" placeholder="Street Address">
+                               <button type="button" class="btn btn-success custom-btn">SUBMIT</button>
+                            </div>
+                       </div>
+                       <div class="text-line-bx wow bounceIn" data-wow-delay="0.7s">
+                       	<p>Sign up above form to find out what your home is worth.</p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----############--------->
+<div class="about-section-bx">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-6 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+            	<div class="about-intro-bx">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed dLorem ipsum dolor sit amet, consectetur adipisicing elit, sed d</p>
+                <div class="custom-links">
+                	<ul>
+                   <li><i class="fa fa-check-circle-o" aria-hidden="true"></i><a href=""> Get a true valuation of what your home is really worth.</a></li>
+                   <li><i class="fa fa-check-circle-o" aria-hidden="true"></i><a href=""> Prepared by experts with 25 years of real estate experience in Prepared by experts </a></li>
+                   <li><i class="fa fa-check-circle-o" aria-hidden="true"></i><a href=""> No cost or risk</a></li>
+                   </ul>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+            	<div class="row photo-gallery gallery-left">
+                	<div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery-5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row photo-gallery gallery-left row-hide-bx">
+                	<div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery-3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery-4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                    	<div class="img-box">
+                        	<a href=""><img src="images/gallery.jpg" alt=""></a>
+                        </div>
+                    </div>
+                   </div> 
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----################----->
+<div class="tesimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 tesimonials-inner clearfix wow flipInX" data-wow-delay="0.7s">
+                <div class="author">
+                    <img alt="" src="images/author-name.png">
+                </div>
+                <div class="author-text">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ”</p>
+                    <span>Anna, New York City</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------##############------>
+<div class="container">
+    <div class="row center-top">
+        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+            <div class="center-top-left">
+                <img alt="" src="images/service.jpg">
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+            <div class="center-top-right">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-6 clearfix">
+                        <div class="icon-box">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </div>
+                        <div class="icon-text">
+                            <h3>Lorem ipsum</h3>
+                            <p>Amet, consectetur sicing elit, sed do eiusmod tempor incididunt</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-6 clearfix">
+                        <div class="icon-box">
+                            <img alt="" src="images/icon1.png">
+                        </div>
+                        <div class="icon-text">
+                            <h3>Lorem ipsum</h3>
+                            <p>Amet, consectetur sicing elit, sed do eiusmod tempor incididunt</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------############---->
+<div class="footer">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-lg-6 col-md-6 col-sm-6">
+            	<div class="copy-right-bx wow fadeInLeft" data-wow-delay="0.5s">
+                <p>© 2016 All RIGHTS RESERVED.  YOUR COMPANY NAME HERE</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">    
+                <div class="useful-links wow fadeInRight" data-wow-delay="0.5s">
+                	<ul>
+                    <li><a href="">PRIVACY |</a></li>
+                     <li><a href="">TERMS & CONDITIONS</a></li>
+                    </ul>
+                </div>
+             </div>   
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
